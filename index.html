@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compra</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <h1>Luckclocks</h1>
+  </header>
+  <section class="container">
+    <!-- container dos elementos -->
+    <div class="container-items">
+      <div class="item">
+        <span class="titulo-item">Box engasses</span>
+        <img src="assets/img/boxengasse.png" alt="" class="img-item">
+        <span class="preco-item">R$1000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">English horse</span>
+        <img src="assets/img/englishrose.png" alt="" class="img-item">
+        <span class="preco-item">R$2000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">Knock Nap</span>
+        <img src="assets/img/knocknap.png" alt="" class="img-item">
+        <span class="preco-item">R$3000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">La Night</span>
+        <img src="assets/img/lanight.png" alt="" class="img-item">
+        <span class="preco-item">R$4000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">Silver All</span>
+        <img src="assets/img/silverall.png" alt="" class="img-item">
+        <span class="preco-item">R$5000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">Skin Glam</span>
+        <img src="assets/img/skinglam.png" alt="" class="img-item">
+        <span class="preco-item">R$6000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">Midimix</span>
+        <img src="assets/img/midimix.png" alt="" class="img-item">
+        <span class="preco-item">R$7000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+      <div class="item">
+        <span class="titulo-item">Sir Blue</span>
+        <img src="assets/img/sirblue.png" alt="" class="img-item">
+        <span class="preco-item">R$8000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+
+      <div class="item">
+        <span class="titulo-item">Middlesteel</span>
+        <img src="assets/img/sirblue.png" alt="" class="img-item">
+        <span class="preco-item">R$9000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+
+      <div class="item">
+        <span class="titulo-item">Tommy Hilfiger</span>
+        <img src="assets/img/Tommy Hilfiger.webp" alt="" class="img-item">
+        <span class="preco-item">R$9000</span>
+        <button class="button-item">Adicionar ao carrinho</button>
+      </div>
+
+
+
+    </div>
+
+    <!-- Carrinho de compras -->
+    <div class="carrinho">
+      <div class="header-carrinho">
+        <h2>Seu Carrinho</h2>
+      </div>
+      <div class="carrinho-items">
+        <div class="carrinho-item">
+          <img src="assets/img/boxengasse.png" alt="" width="80px">
+          <div class="carrinho-item-detalhes">
+            <span class="carrinho-item-titulo">Box Engasse</span>
+            <div class="seletor-guantidade">
+              <i class="fa-solid fa-minus subtrair-quantidade"></i>
+              <input type="text" value="1" class="carrinho-item-quantidade" disabled>
+              <i class="fa-solid fa-plus somar-quantidade"></i>
+            </div>
+            <span class="carrinho-item-preco">R$1000</span>
+          </div>
+          <span class="btn-eliminar">
+            <i class="fa-solid fa-trash"></i>
+          </span>
+        </div>
+
+        <div class="carrinho-item">
+          <img src="assets/img/englishrose.png" alt="" width="80px">
+          <div class="carrinho-item-detalhes">
+            <span class="carrinho-item-titulo">English Rose</span>
+            <div class="seletor-guantidade">
+              <i class="fa-solid fa-minus subtrair-quantidade"></i>
+              <input type="text" value="2" class="carrinho-item-quantidade" disabled>
+              <i class="fa-solid fa-plus somar-quantidade"></i>
+            </div>
+            <span class="carrinho-item-preco">R$2000</span>
+          </div>
+          <span class="btn-eliminar">
+            <i class="fa-solid fa-trash"></i>
+          </span>
+
+        </div>
+
+      </div>
+
+       <div class="carrinho-total">
+         <div class="fila">
+          <strong>Total</strong>
+          <span class="carrinho-preco-total">
+            R$5000
+          </span>  
+         </div>
+         <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+       </div>
+
+      </div>
+      
+      <!-- API CEP -->
+      <form action="" class="carrinho header-carrinho">
+        <div class="frm-group">
+          <label for="">CEP</label>
+          <input type="text" name="cep">
+        </div>
+        <div class="frm-group">
+          <label for="">Rua</label>
+          <input type="text" name="rua">
+        </div>
+        <div class="frm-group">
+          <label for="">Bairro</label>
+          <input type="text" name="bairro">
+        </div>
+        <div class="frm-group">
+          <label for="">Cidade</label>
+          <input type="text" name="cidade">
+        </div>
+        <div class="frm-group">
+          <label for="">Estado</label>
+          <input type="text" name="estado">
+        </div>
+
+      </form>
+
+  </section>
+
+</body>
+
+</html>
