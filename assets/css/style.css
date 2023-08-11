@@ -181,6 +181,17 @@ header h1{
 .carrinho-total .btn-pagar:hover{
   scale: 1.05;
 }
+.clock{
+  display: flex;
+  flex-direction: column;
+  margin: 28px 0 0 20px;
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+  height: 30vh;
+  border-radius: 5px;
+}
 
 /* responsivo */
 
@@ -192,6 +203,9 @@ header h1{
     width: 100% !important;
   }
   .carrinho{
+    width: 100%;
+  }
+  .clock{
     width: 100%;
   }
 }
