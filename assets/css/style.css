@@ -1,22 +1,22 @@
-*{
-  font-family: 'Open Sans', sans-serif;
+* {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-header{
-  background:url(/assets/img/header.jpg);
+header {
+  background: url(/assets/img/header.jpg);
   background-size: cover;
   background-position: center;
   height: 300px;
 }
-header h1{
+header h1 {
   text-align: center;
   font-size: 35px;
   color: #ffff;
   padding: 30px 0;
 }
-.container{
+.container {
   max-width: 1200px;
   padding: 10px;
   margin: auto;
@@ -24,42 +24,42 @@ header h1{
   justify-content: space-between;
   contain: point;
 }
-.container .container-items{
+.container .container-items {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 2fr));
   gap: 30px;
   width: 60%;
-  transition: .3s;
+  transition: 0.3s;
 }
-.container .container-items .item{
+.container .container-items .item {
   max-width: 200px;
   padding: 10px;
   margin: auto;
   border: 1px solid #666;
   padding: 20px;
-  transition: .3s;
+  transition: 0.3s;
 }
-.container-items .item:hover{
+.container-items .item:hover {
   box-shadow: 0 0 10px #666;
   scale: 1.05;
 }
-.container-items .item .img-item{
+.container-items .item .img-item {
   width: 100%;
 }
-.container-items .item .titulo-item{
+.container-items .item .titulo-item {
   display: block;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
-.container-items .item .preco-item{
+.container-items .item .preco-item {
   display: block;
   text-align: center;
   font-weight: bold;
   font-size: 22px;
 }
-.container-items .item .button-item{
+.container-items .item .button-item {
   display: block;
   margin: 10px auto;
   border: none;
@@ -70,7 +70,7 @@ header h1{
   cursor: pointer;
 }
 /* sessão carrinho */
-.carrinho{
+.carrinho {
   border: 1px solid #666;
   width: 35%;
   margin-top: 30px;
@@ -79,36 +79,36 @@ header h1{
   margin-bottom: auto;
   position: static !important;
   top: 0;
-  transition: .3s;
+  transition: 0.3s;
 }
-.carrinho .header-carrinho{
+.carrinho .header-carrinho {
   background: #222;
   color: white;
   text-align: center;
   padding: 30px 0;
 }
-.carrinho .carrinho-item{
+.carrinho .carrinho-item {
   display: flex;
   align-items: center;
   position: relative;
   border-bottom: 1px solid #666;
   padding: 20px;
 }
-.carrinho .carrinho-item img{
+.carrinho .carrinho-item img {
   margin-right: 20px;
 }
-.carrinho .carrinho-item .carrinho-item-titulo{
+.carrinho .carrinho-item .carrinho-item-titulo {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
   text-transform: uppercase;
 }
-.carrinho .carrinho-item .seletor-guantidade{
+.carrinho .carrinho-item .seletor-guantidade {
   display: inline-block;
   margin-right: 25px;
   padding: 0 7px;
 }
-.carrinho .carrinho-item .carrinho-item-quantidade{
+.carrinho .carrinho-item .carrinho-item-quantidade {
   border: none;
   font-size: 18px;
   background: transparent;
@@ -117,7 +117,7 @@ header h1{
   padding: 5px;
   text-align: center;
 }
-.carrinho .carrinho-item .seletor-guantidade{
+.carrinho .carrinho-item .seletor-guantidade {
   font-size: 18px;
   width: 32px;
   height: 32px;
@@ -126,13 +126,13 @@ header h1{
   border-radius: 50%;
   border: 1px solid #222;
 }
-.carrinho .carrinho-item .carrinho-item-preco{
+.carrinho .carrinho-item .carrinho-item-preco {
   font-weight: bold;
   display: inline-block;
   font-size: 18px;
   margin-bottom: 5px;
 }
-.carrinho .carrinho-item .btn-eliminar{
+.carrinho .carrinho-item .btn-eliminar {
   position: absolute;
   right: 15px;
   top: 15px;
@@ -148,14 +148,14 @@ header h1{
   background: transparent;
   z-index: 20;
 }
-.carrinho .carrinho-item .btn-eliminar i{
+.carrinho .carrinho-item .btn-eliminar i {
   pointer-events: none;
 }
-.carrinho-total{
+.carrinho-total {
   background: #f3f3f3;
   padding: 30px;
 }
-.carrinho-total .fila{
+.carrinho-total .fila {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,7 +163,7 @@ header h1{
   font-weight: bold;
   margin-bottom: 10px;
 }
-.carrinho-total .btn-pagar{
+.carrinho-total .btn-pagar {
   display: flex;
   width: 100%;
   border: none;
@@ -176,12 +176,12 @@ header h1{
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
-.carrinho-total .btn-pagar:hover{
+.carrinho-total .btn-pagar:hover {
   scale: 1.05;
 }
-.clock{
+.clock {
   display: flex;
   flex-direction: column;
   margin: 28px 0 0 20px;
@@ -192,20 +192,108 @@ header h1{
   height: 30vh;
   border-radius: 5px;
 }
+footer {
+  background-color: #222;
+  width: 100%;
+}
+.footer_content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 2rem 2rem;
+  margin-left: 7rem;
+}
+.socialMedia {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.instagram {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(#bc2a8d, #cd486b, #fbad50);
+}
+
+.twitter {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background: #18a1d6;
+}
+.whatsapp {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background: #25d366;
+}
+.facebook {
+  text-decoration: none;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 1rem;
+  background: #4267b2;
+}
+.footerList {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+}
+.footerList h3 {
+  color: #4267b2;
+  font-size: 1.5rem;
+}
+.footerList li a {
+  text-decoration: none;
+  color: white;
+}
+.footerList li a:hover {
+  color: #fcce00;
+}
+.socialMedia a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+  text-shadow: -2px 5px 5px rgb(0, 0, 0);
+  color: #fffbfb;
+}
 
 /* responsivo */
 
-@media screen and (max-width:850px){
-  .container{
+@media screen and (max-width: 850px) {
+  .container {
     display: block;
   }
-  .container-items{
+  .container-items {
     width: 100% !important;
   }
-  .carrinho{
+  .carrinho {
     width: 100%;
   }
-  .clock{
+  .clock {
     width: 100%;
   }
 }
