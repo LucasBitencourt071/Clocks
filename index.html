@@ -109,9 +109,10 @@
           <div class="carrinho-item-detalhes">
             <span class="carrinho-item-titulo">Box Engasse</span>
             <div class="seletor-guantidade">
-              <i class="fa-solid fa-minus subtrair-quantidade"></i>
-              <input type="text" value="1" class="carrinho-item-quantidade" disabled>
-              <i class="fa-solid fa-plus somar-quantidade"></i>
+              <i class="fa-solid fa-minus subtrair-quantidade" id="btMenos" onclick="btMenos()"></i>
+              <!-- <input type="text" value="1" class="carrinho-item-quantidade" disabled> -->
+              <h6 id="carrinhoItem"></h6>
+              <i class="fa-solid fa-plus somar-quantidade" onclick="btMais()"></i>
             </div>
             <span class="carrinho-item-preco">R$1000</span>
           </div>
@@ -125,9 +126,10 @@
           <div class="carrinho-item-detalhes">
             <span class="carrinho-item-titulo">English Rose</span>
             <div class="seletor-guantidade">
-              <i class="fa-solid fa-minus subtrair-quantidade"></i>
-              <input type="text" value="2" class="carrinho-item-quantidade" disabled>
-              <i class="fa-solid fa-plus somar-quantidade"></i>
+              <i class="fa-solid fa-minus subtrair-quantidade" onclick="btMenos2()"></i>
+              <h6 id="carrinhoItem2"></h6>
+              <!-- <input type="text" value="2" class="carrinho-item-quantidade" id="carrinhoItem" disabled> -->
+              <i class="fa-solid fa-plus somar-quantidade" onclick="btMais2()"></i>
             </div>
             <span class="carrinho-item-preco">R$2000</span>
           </div>
@@ -142,8 +144,8 @@
       <div class="carrinho-total">
         <div class="fila">
           <strong>Total</strong>
-          <span class="carrinho-preco-total">
-            R$5000
+          <span class="carrinho-preco-total" id="precoTotal">
+
           </span>
         </div>
         <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
