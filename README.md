@@ -1,9 +1,8 @@
 # Projeto Clock
+
 ![Alt text](assets/img/siteClocks.png)</img>
 
 <a href="#💻tecnologias">Tecnologias</a> | <a href="#projeto"> Projeto</a> |<a> Layout </a>|<a> Licença</a>
-
-
 
 ## 💻Tecnologias
 
