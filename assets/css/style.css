@@ -23,26 +23,23 @@ header h1 {
 }
 
 .header-menu {
-  /* display: grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 2rem 0rem 0rem 15rem; */
+  padding: 2rem 0rem 0rem 15rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 }
-/* .menu-nav {
+.menu-nav {
   display: block;
   width: 40rem;
   border-radius: 2rem;
-  padding: 0rem 2rem;
+  padding: 0rem 0rem 0rem 0rem;
   text-align: center;
   margin-right: 12rem;
-} */
+}
 .menu-ul {
   display: flex;
   list-style: none;
-  margin-right: 10rem;
+  margin-left: 60rem;
 }
 .menu-ul li {
   padding: 3rem 0rem 0rem 0rem;
