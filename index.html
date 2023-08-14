@@ -17,7 +17,31 @@
 
 <body>
   <header>
-    <h1>Luckclocks</h1>
+    <div class="header-menu">
+      <h1>Clocks</h1>
+      <div class="menu-nav">
+        <ul class="menu-ul">
+          <li>
+
+            <a href="#">
+              <i class="fa-solid fa-house"></i> Home
+            </a>
+          </li>
+          <li>
+
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i> Pesquisa</a>
+          </li>
+          <li>
+
+            <a href="#"><i class="fa-solid fa-box"></i> Produtos</a>
+          </li>
+          <li>
+
+            <a href="#"><i class="fa-solid fa-boxes-stacked"></i> Coleção</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </header>
   <section class="container">
     <!-- container dos elementos -->
@@ -140,10 +164,34 @@
         </div>
 
       </div>
+      <h2>Digite seu Cep Abaixo <i class="fa-solid fa-down-long"></i></h2>
+      <form action="" class="clock">
 
+        <div class="frm-group">
+          <label for="">CEP:</label>
+          <input type="text" name="cep">
+        </div>
+        <div class="frm-group">
+          <label for="">Rua:</label>
+          <input type="text" name="rua">
+        </div>
+        <div class="frm-group">
+          <label for="">Bairro:</label>
+          <input type="text" name="bairro">
+        </div>
+        <div class="frm-group2">
+          <label for="">Cidade:</label>
+          <input type="text" name="cidade">
+        </div>
+        <div class="frm-group2">
+          <label for="">Estado:</label>
+          <input type="text" name="estado">
+        </div>
+
+      </form>
       <div class="carrinho-total">
         <div class="fila">
-          <strong>Total</strong>
+          <strong>Total:</strong>
           <span class="carrinho-preco-total" id="precoTotal">
 
           </span>
@@ -154,29 +202,7 @@
     </div>
 
     <!-- API CEP -->
-    <form action="" class="clock">
-      <div class="frm-group">
-        <label for="">CEP</label>
-        <input type="text" name="cep">
-      </div>
-      <div class="frm-group">
-        <label for="">Rua</label>
-        <input type="text" name="rua">
-      </div>
-      <div class="frm-group">
-        <label for="">Bairro</label>
-        <input type="text" name="bairro">
-      </div>
-      <div class="frm-group">
-        <label for="">Cidade</label>
-        <input type="text" name="cidade">
-      </div>
-      <div class="frm-group">
-        <label for="">Estado</label>
-        <input type="text" name="estado">
-      </div>
 
-    </form>
 
   </section>
 
