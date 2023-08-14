@@ -284,7 +284,7 @@ footer {
 /* responsivo */
 
 @media screen and (max-width: 850px) {
-  .container {
+  /* .container {
     display: block;
   }
   .container-items {
@@ -294,6 +294,36 @@ footer {
     width: 100%;
   }
   .clock {
+    width: 100%;
+  } */
+
+  .body {
+    width: 100%;
+  }
+  .container {
+    display: block;
+    min-width: 320px;
+  }
+  .container-items {
+    width: 100% !important;
+    min-width: 320px;
+  }
+  .carrinho {
+    min-width: 320px;
+    width: 100%;
+  }
+  .clock {
+    min-width: 320px;
+    width: 100%;
+  }
+  .footer {
+    min-width: 320px;
+  }
+
+  .footerList {
+    display: none;
+  }
+  .footer_content {
     width: 100%;
   }
 }
